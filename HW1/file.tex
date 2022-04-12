@@ -24,7 +24,7 @@
 \subsection*{(a)}
 False, the number of neurons in a brain is around 100x$10^9$ not $10^{12}$.
 \subsection*{(b)}
-True
+False, the frontal lobe is in the front of the brain and the occipital lobe is in the back. 
 \subsection*{(c)}
 True
 \subsection*{(d)}
@@ -32,7 +32,7 @@ False, "Each hemisphere is concerned primarily with sensory and motor processing
 \subsection*{(e)}
 True
 \subsection*{(f)}
-True
+False, astrocytes form the blood brain barrier not the myelin sheets, the myelin sheets are created by Oligodendrocytes.
 \subsection*{(g)}
 True
 \subsection*{(h)}
@@ -42,4 +42,86 @@ False,  neurons transmit information at the synapse chemically.
 False, Action potentials are “all or nothing” therefore the amplitude does not matter
 \subsection*{(j)}
 False they are more 10x more concentrated on the extracellular side.
+
+\subsection*{(k)}
+False, neurons fire at around 200Hz
+\subsection*{(l)}
+False, it is an increase
+\subsection*{(m)}
+True
+\subsection*{(n)}
+True
+\subsection*{(o)}
+False it will increase action potential speed.
+\subsection*{(p)}
+True
+\subsection*{(q)}
+True
+\subsection*{(r)}
+True
+\subsection*{(s)}
+True
+\subsection*{(t)}
+False, Anionic proteins residing in the cytoplasm are not as permeable to the membrane as sodium
+and potassium ions.
+\section*{Problem 2}
+\subsection*{(a)}
+$$E_K=\frac{58mV}{1}\log\frac{42}{336}=-52.379mV$$
+$$E_{NA}=\frac{58mV}{1}\log\frac{300}{50}=45.132mV$$
+\subsection*{(b)}
+I would tell her to remeasure her results, because from Goldman's equation we would have that
+$$V_m=\frac{RT}{F}\log\left(\frac{P_K[K^+]_o +P_{NA}[NA^+]_o+P_{CL}[CL^+]_o}{P_K[K^+]_i +P_{NA}[NA^+]_i+P_{CL}[CL^+]_i}\right)$$
+Since the membrane is only permeable to Sodium and Potassium we have
+
+$$V_m=58mV\log\left(\frac{[K^+]_o +\alpha[NA^+]_o}{[K^+]_i +\alpha[NA^+]_i}\right)$$
+
+Where $\alpha=\frac{P_{NA}}{P_K}$. Thus $V_m$ has a minimum at $E_K=-52.379mV$ when $\alpha=0$ and a maximum $E_{NA}=45.132mV$ when $\alpha=\infty$. Therefore there is no way for $V_m=110mV$
+\subsection*{(c)}
+A higher value because that would result in a greater $E_NA$ and thus a greater maximum for $V_m$.
+\section*{Problem 3}
+\subsection*{(a)}
+$$g_K=\frac{I_K}{(V_m-E_k)}=\frac{1pA}{45mV}=22.222pS$$
+$$g_{NA}=\frac{I_{NA}}{(V_m-E_{NA})}=\frac{1pA}{50mV}=20 pS$$
+\subsection*{(b)}
+$$g_{IN}=g_K+g_{NA}$$
+$$R_{IN}=\frac{1}{g_{IN}}=23.684 G\Omega$$
+\subsection*{(c)}
+$$C=\epsilon_0\frac{A}{d}=\epsilon_0\frac{4(10\mu m)^2 \pi}{100pm}=111.265pF$$
+\subsection*{(d)}
+The time constant for this Alien neuron is
+$$\tau=R_{IN}C=2.635s$$
+So this Alien lower will fire much more slowly than a human neuron
+\section*{Problem 4}
+\subsection*{(a)}
+No they don't need to be equal and opposite, outside forces, such as the electrical fields caused by the flow of other ions.
+\subsection*{(b)}
+Through NA+-K+ pump.
+
+\section*{Problem 5}
+\subsection*{(a)}
+we have
+$$r_a=\frac{\rho}{\pi r^2}$$
+
+$$c_m=\frac{\epsilon A}{d}$$
+and that the action potential speed $\propto\frac{1}{r_ac_m}$
+
+
+For species A we have
+$$r_a=\frac{\rho}{\pi r^2}=\frac{\rho}{\pi (490\mu m)^2}$$
+$$c_m=\frac{\epsilon \pi(490\mu m)^2}{10\mu m}$$Therefore the action potential speed for species A $\propto\frac{490\mu m}{\epsilon \rho}$\\\\
+For species B we have
+$$r_a=\frac{\rho}{\pi r^2}=\frac{\rho}{\pi (250\mu m)^2}$$
+$$c_m=\frac{\epsilon \pi(250\mu m)^2}{250\mu m}$$
+Therefore the action potential speed for species B $\propto\frac{250\mu m}{\epsilon \rho}$
+
+Therefore species B would transmit faster.
+\subsection*{(b)}
+Yes, since the neurons take up the same space, but they they transmit faster, since the contribution from the area in $r_m$ and $c_m$ will cancel out.
+
+\subsection*{(c)}
+Nodes of Ranvier, are bare patches in a myelinated axon that that are densely populated with voltage-gated Na+ channels. These help boost the amplitude of a action potential so it doesn't die out.
+
+
+
+ 
 \end{document}

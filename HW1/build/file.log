@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.30)  1 APR 2022 19:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.30)  10 APR 2022 17:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -208,7 +208,7 @@ pdftex.def
 File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count282
 \l__pdf_internal_box=\box54
-) (C:\Users\Lawrence\Desktop\UCLA\Classes\ECE 143A\HW1\build\file.aux)
+) (C:\Users\Lawrence\Desktop\UCLA\Classes\ECEC143A\HW1\build\file.aux)
 \openout1 = `file.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -270,25 +270,42 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [1
 
 {C:/Users/Lawrence/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-[2] (C:\Users\Lawrence\Desktop\UCLA\Classes\ECE 143A\HW1\build\file.aux) ) 
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+[2] [3] [4] [5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 111--113
+
+ []
+
+[7] [8] (C:\Users\Lawrence\Desktop\UCLA\Classes\ECEC143A\HW1\build\file.aux) ) 
 Here is how much of TeX's memory you used:
  5786 strings out of 478659
- 92620 string characters out of 2844498
- 383420 words of memory out of 3000000
+ 92616 string characters out of 2844498
+ 386420 words of memory out of 3000000
  23854 multiletter control sequences out of 15000+600000
  411886 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,6n,77p,301b,261s stack positions out of 5000i,500n,10000p,200000b,80000s
-<C:/U
-sers/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx
-12.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr12.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmr17.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on "C:\Users\Lawrence\Desktop\UCLA\Classes\ECE 143A\HW1\build\fi
-le.pdf" (2 pages, 48471 bytes).
+<
+C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmbx12.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmex10.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Lawrence/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Lawrence/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Lawrence/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/L
+awrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+<C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmr8.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb>
+Output written on C:\Users\Lawrence\Desktop\UCLA\Classes\ECEC143A\HW1\build\fil
+e.pdf (8 pages, 121762 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
+ 74 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
