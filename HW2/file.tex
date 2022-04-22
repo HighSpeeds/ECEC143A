@@ -23,7 +23,7 @@
 \subsection*{(a)}
 False, the Na+ channel opens first
 \subsection*{(b)}
-True
+False, only Na+ serve to depolarize the cell.
 \subsection*{(c)}
 True
 \subsection*{(d)}
@@ -31,8 +31,21 @@ False, EEG's cannot record action potentials.
 \subsection*{(e)}
 False because $\lambda$ does not vary with time and a possion process is memoryless.
 \subsection*{(f)}
-True
+False, if the Fano factor is greater than one, the firing variance is greater than the firing mean
 \subsection*{(g)}
+True
+\subsection*{(h)}
+False, the 
+\subsection*{(i)}
+False
+\subsection*{(j)}
+
+\subsection*{(m)}
+False it is a low pass.
+\subsection*{(n)}
+False, good for visual bad for motor
+\subsection*{(o)}
+False, Absolute not relative
 
 
 \section*{Problem 2}
@@ -40,7 +53,7 @@ True
 $f(\theta)$ reaces a max at $\theta=\theta_0$ therefore this
 is the prefered direction.
 \subsection*{(b)}
-No because the values of the tunin curve would all be negative
+No because the values of the tuning curve would all be negative
 \subsection*{(c)}
 \begin{align*}
     \cos(\theta-\theta_0)&=e^{j(\theta-\theta_0)}\\
@@ -49,8 +62,21 @@ No because the values of the tunin curve would all be negative
 \end{align*}
 \subsection*{(d)}
 $$k_0=c_0$$
-$$k_1=\sin(\theta_0)$$
-$$k_2=\cos(\theta_0)$$
+$$k_1=c_1\sin(\theta_0)$$
+$$k_2=c_1\cos(\theta_0)$$
+\subsection*{(e)}
+We have
+$$y_0=25=k_0+k_2$$
+$$y_{120}=70=k_0+\frac{k_1}{2}-\frac{k_2\sqrt{3}}{2}$$
+$$y_{240}=10=k_0-\frac{k_1}{2}-\frac{k_2\sqrt{3}}{2}$$
+
+Therefore we have
+$$y_{120}+y_{240}=2k_0-k_2\sqrt{3}$$
+$$2y_0-y_{120}-y_{240}=(2+\sqrt{3})k_2$$
+$$k_2=\boxed{\frac{2y_0-y_{120}-y_{240}}{2+\sqrt{3}}}$$
+$$k_0=\boxed{y_0-\frac{2y_0-y_{120}-y_{240}}{2+\sqrt{3}}}$$
+$$k_1=\boxed{y_{240}-y_0+\frac{2y_0-y_{120}-y_{240}}{2+\sqrt{3}}+\frac{4y_0-2y_{120}-2y_{240}}{2\sqrt{3}+3}}$$
+\subsection*{(f)}
 
 
 \end{document}
