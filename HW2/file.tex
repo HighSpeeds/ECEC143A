@@ -83,7 +83,44 @@ $$k_1=\boxed{\frac{y_{120}-y_{240}}{\sqrt{3}}}$$
 
 \section*{Problem 4}
 \subsection*{(a)}
+The ISI is a exponential distribution with paramter $\lambda$ so therefore the mean is
 $$\frac{1}{\lambda}$$
 \subsection*{(b)}
+The probability that a given ISI is greater than the mean ISI is 
+\begin{align*}
+    \int_{\frac{1}{\lambda}}^{+\infty}\lambda e^{-\lambda t}dt&=\boxed{e^{-1}}
+\end{align*}
+\subsection*{(c)}
+from bayes theorem we have
+\begin{align*}
+    Pr\left(T=t|T>\frac{1}{\lambda}\right)&=\frac{Pr(T>\frac{1}{\lambda}|T=t)f(T=t)}{Pr(T>\frac{1}{\lambda})} 
+\end{align*}
+\begin{align*}
+    E[T|T>\frac{1}{\lambda}]&=\int_{0}^{\infty}tPr\left(T=t|T>\frac{1}{\lambda}\right)dt\\
+    &=\int_{\frac{1}{\lambda}}^{\infty}te \lambda e^{-\lambda t} dt\\
+    &=\boxed{\frac{e}{\lambda}}
+\end{align*}
 
+\subsection*{(d)}
+we have
+$$Pr\left(T=t|T<\frac{1}{\lambda}\right)=\frac{Pr(T<\frac{1}{\lambda}|T=t)f(T=t)}{Pr(T<\frac{1}{\lambda})}$$
+therefore
+\begin{align*}
+    E[T|<>\frac{1}{\lambda}]&=\int_{0}^{\infty}tPr\left(T=t|T<\frac{1}{\lambda}\right)dt\\
+    &=\int_{0}^{\frac{1}{\lambda}}t\frac{1}{1-e^{-1}} \lambda e^{-\lambda t} dt\\
+    &=\boxed{\frac{1}{(1-e^{-1})\lambda}}
+\end{align*}
+\subsection*{(e)}
+The probabalitiy for an ISI to be greater than the mean ISI is $e^{-1}$, therefore the 
+number of spikes before one sees an ISI greater than the mean ISI is a geometric distribution
+with $p=e^{-1}$. The mean of this distribution is $\frac{1}{p}=e$ therefore the expected number of spikes
+that need to be fired before one sees an ISI less than the mean is $\boxed{e+1}$, since one spike needs to be fired first to measure the ISI.
+\subsection*{(f)}
+Let the expected waiting time be $T_w$ we have
+$$T_w=\sum_{n=1}^\infty p(n) \sum_{i=1}^{n}E(T_i)$$
+Where $T_i$ is the ith ISI time, and $p(n)$ is the probablity that the nth watiting time will be the
+first greater than the mean. Thus $p(n)$ is a geometric distribution with $p=\frac{1}{e}$
+$$E(T_w)=\sum_{n=1}^{\infty} p(n)\frac{n}{\lambda}$$
+$$E(T_w)=\boxed{\frac{e}{\lambda}}$$
+\section*{Problem 5}
 \end{document}
