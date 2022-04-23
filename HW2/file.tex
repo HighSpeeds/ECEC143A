@@ -155,11 +155,11 @@ By the memoryless property, this is just
 This is just the probablity that neuron 1 fires before
 neuron 2, which is 
 \begin{align*}
-    \int_{0}^{\infty}\lambda_1e^{-\lambda_1 t}\int_{0}^{t}\lambda_2e^{-\lambda_2 \tau}d\tau dt
-    &=\int_{0}^{\infty}\lambda_1e^{-\lambda_1 t}(1-e^{-\lambda_2 t})\\
-    &=1-\lambda_1\int_{0}^{\infty}e^{-(\lambda_1+\lambda_2) t}\\
-    &=1-\lambda_1\frac{1}{\lambda_1+\lambda_2}\\
-    &=\boxed{1-\frac{50}{83.333}}
+    \int_{0}^{\infty}\lambda_2e^{-\lambda_2 t}\int_{0}^{t}\lambda_1e^{-\lambda_1 \tau}d\tau dt
+    &=\int_{0}^{\infty}\lambda_2e^{-\lambda_2 t}(1-e^{-\lambda_1 t})\\
+    &=1-\lambda_2\int_{0}^{\infty}e^{-(\lambda_1+\lambda_2) t}\\
+    &=1-\lambda_2\frac{1}{\lambda_1+\lambda_2}\\
+    &=\boxed{1-\frac{33.333}{83.333}}
 \end{align*}
 
 \end{document}
