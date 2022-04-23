@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1650697000 "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW2/file.tex" "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW2/file.pdf" "file" 1650697000
+["pdflatex"] 1650703714 "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW2/file.tex" "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW2/file.pdf" "file" 1650703715
   "/etc/texmf/web2c/texmf.cnf" 1649909990 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW2/file.aux" 1650697000 33 cd8a9e253be16178be412705367a589a ""
-  "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW2/file.tex" 1650696999 5372 01433a611b5d4bf3f5fd1345c8e22dc3 ""
+  "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW2/file.aux" 1650703714 33 cd8a9e253be16178be412705367a589a ""
+  "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW2/file.tex" 1650703714 5839 45a64732b7d0d55e7bc682dbc9d037d9 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -33,6 +33,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1248133631 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1248133631 32587 1788b0c1c5b39540c96f5e42ccd6dae8 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty" 1583617216 6501 4011d89d9621e0b0901138815ba5ff29 ""
@@ -76,11 +77,11 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1649909994 128028 f533b797fba58d231669ea19e894e23e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1650655531 1283511 f727d6ed83e9f059692fbbb697e395c5 ""
   "Problem 2 Jupyter.pdf" 1650655902 50636 bcddcf57dabf3b4c8ab9fffc57c0dd0a ""
-  "file.aux" 1650697000 33 cd8a9e253be16178be412705367a589a "pdflatex"
-  "file.tex" 1650696999 5372 01433a611b5d4bf3f5fd1345c8e22dc3 ""
+  "file.aux" 1650703714 33 cd8a9e253be16178be412705367a589a "pdflatex"
+  "file.tex" 1650703714 5839 45a64732b7d0d55e7bc682dbc9d037d9 ""
   (generated)
-  "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW2/file.log"
-  "file.pdf"
-  "file.log"
   "file.aux"
   "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW2/file.pdf"
+  "file.log"
+  "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW2/file.log"
+  "file.pdf"

@@ -80,7 +80,14 @@ $$k_1=\boxed{\frac{y_{120}-y_{240}}{\sqrt{3}}}$$
 \includepdf[pages=-]{"Problem 2 Jupyter.pdf"}
 
 \section*{Problem 3}
-
+\subsection*{(a)}
+No, because the pdf has a maximum at $t=0$ and it decreases exponentialy. If it did then the pdf would be 0 for $t<t_1$ for some $t_1$
+\subsection*{(b)}
+Therefore we have $\lambda=50$
+and the probabalitiy that a spike would violate the 1ms refractory period is 
+$$\int_{0}^{1\cdot10^{-3}}\lambda e^{-\lambda t}dt=1- e^{-0.05}=0.048$$
+So therefore we have the percentage spikes which would violate the 1ms refractory period
+is around $\boxed{4.8\%}$.
 \section*{Problem 4}
 \subsection*{(a)}
 The ISI is a exponential distribution with paramter $\lambda$ so therefore the mean is
