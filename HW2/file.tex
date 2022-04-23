@@ -117,10 +117,38 @@ with $p=e^{-1}$. The mean of this distribution is $\frac{1}{p}=e$ therefore the 
 that need to be fired before one sees an ISI less than the mean is $\boxed{e+1}$, since one spike needs to be fired first to measure the ISI.
 \subsection*{(f)}
 Let the expected waiting time be $T_w$ we have
-$$T_w=\sum_{n=1}^\infty p(n) \sum_{i=1}^{n}E(T_i)$$
-Where $T_i$ is the ith ISI time, and $p(n)$ is the probablity that the nth watiting time will be the
+$$T_w=\sum_{n=1}^\infty p(n) \sum_{i=1}^{n}E(t_i)$$
+Where $t_i$ is the ith ISI time, and $p(n)$ is the probablity that the nth watiting time will be the
 first greater than the mean. Thus $p(n)$ is a geometric distribution with $p=\frac{1}{e}$
 $$E(T_w)=\sum_{n=1}^{\infty} p(n)\frac{n}{\lambda}$$
 $$E(T_w)=\boxed{\frac{e}{\lambda}}$$
 \section*{Problem 5}
+\subsection*{(a)}
+The probablity that electrode 1's neuron does not spike in the first 60ms is 
+$$P_{1}=\int_{0}^{\frac{3}{\lambda_1}}\lambda_1 e^{-\lambda_1 t}dt$$
+$$P_{1}=1-e^{-3}$$
+And the probablity that electrode 2's neuron does not spike in the first 60ms is 
+$$P_{2}=\int_{0}^{\frac{2}{\lambda_2}}\lambda_2 e^{-\lambda_2 t}dt$$
+$$P_{2}=1-e^{-2}$$
+
+Therefore the probablity that neither of them are detected is 
+$$P_{2}P_{1}=(1-e^{-2})(1-e^{-3})$$
+\subsection*{(b)}
+By the memoryless property, this is just
+\begin{align*}
+    \int_{0}^{t}\lambda_1 e^{-\lambda_1 t}dt\int_{0}^{t}\lambda_2 e^{-\lambda_2 t}dt
+    &=(1-e^{-\lambda_1t})(1-e^{-\lambda_2t})\\
+    &=\boxed{(1-e^{-50t})(1-e^{-33.333t})}
+\end{align*}
+\subsection*{(c)}
+This is just the probablity that neuron 1 fires before
+neuron 2, which is 
+\begin{align*}
+    \int_{0}^{\infty}\lambda_1e^{-\lambda_1 t}\int_{0}^{t}\lambda_2e^{-\lambda_2 \tau}d\tau dt
+    &=\int_{0}^{\infty}\lambda_1e^{-\lambda_1 t}(1-e^{-\lambda_2 t})\\
+    &=1-\lambda_1\int_{0}^{\infty}e^{-(\lambda_1+\lambda_2) t}\\
+    &=1-\lambda_1\frac{1}{\lambda_1+\lambda_2}\\
+    &=\boxed{1-\frac{50}{83.333}}
+\end{align*}
+
 \end{document}
