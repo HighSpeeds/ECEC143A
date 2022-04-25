@@ -37,7 +37,7 @@ True
 \subsection*{(h)}
 False, the Exponential distribution does not model the refractory period well.
 \subsection*{(i)}
-False
+True
 \subsection*{(j)}
 True
 \subsection*{(k)}
@@ -126,7 +126,7 @@ therefore
     &=\frac{1}{1-e^{-1}}\left(\left. -te^{-\lambda t}\right|_{0}^{\frac{1}{\lambda}}+
     \int_{0}^{\frac{1}{\lambda}}e^{-\lambda t}\right)\\
     &=\frac{1}{1-e^{-1}}\left(-\frac{e^{-1}}{\lambda}-\frac{e^{-1}-1}{\lambda}\right)\\
-    &=\boxed{\frac{2-e}{\lambda(e-1)}}
+    &=\boxed{\frac{e-2}{\lambda(e-1)}}
 \end{align*}
 \subsection*{(e)}
 The probabalitiy for an ISI to be greater than the mean ISI is $e^{-1}$, therefore the 
@@ -140,9 +140,12 @@ Where $t_i$ is the ith ISI time, and $p(n)$ is the probablity that the nth watit
 first greater than the mean. Thus $p(n)$ is a geometric distribution with $p=\frac{1}{e}$
 \begin{align*}
     E(T_w)&=
-    \sum_{n=1}^{\infty} p(n)\left(\frac{e}{\lambda}+\frac{n-1}{(1-e^{-1})\lambda}\right)\\
-    &=\frac{e}{\lambda}-\frac{1}{(1-e^{-1})\lambda}+\sum_{n=1}^{\infty} p(n)\frac{n}{(1-e^{-1})\lambda}\\
-    &=\boxed{\frac{e}{\lambda}+\frac{e-1}{(1-e^{-1})\lambda}}
+    \sum_{n=1}^{\infty} p(n)\left(\frac{2}{\lambda}+(n-1)\frac{e-2}{\lambda(e-1)}\right)\\
+    &=\frac{2}{\lambda}-\frac{e-2}{(e-1)\lambda}+\sum_{n=1}^{\infty} p(n)\frac{n(e-2)}{(e-1n)\lambda}\\
+    &=\frac{2}{\lambda}-\frac{e-2}{(e-1)\lambda}+\frac{(e^2-2e)}{(e-1)\lambda}\\
+    &=\frac{2}{\lambda}+\frac{e^2-3e+2}{(e-1)\lambda}\\
+    &=\frac{2}{\lambda}+\frac{e-2}{\lambda}\\
+    &=\boxed{\frac{e}{\lambda}}
 \end{align*}
 \section*{Problem 5}
 \subsection*{(a)}
