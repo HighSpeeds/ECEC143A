@@ -110,7 +110,10 @@ from bayes theorem we have
 \begin{align*}
     E[T|T>\frac{1}{\lambda}]&=\int_{0}^{\infty}tPr\left(T=t|T>\frac{1}{\lambda}\right)dt\\
     &=\int_{\frac{1}{\lambda}}^{\infty}te \lambda e^{-\lambda t} dt\\
-    &=\boxed{\frac{e}{\lambda}}
+    &=e\left(\left. -te^{-\lambda t}\right|_{\frac{1}{\lambda}}^{\infty}+
+    \int_{\frac{1}{\lambda}}^{\infty}e^{-\lambda t}\right)\\
+    &=e\left(\frac{e^{-1}}{\lambda}+\frac{e^{-1}}{\lambda}\right)\\
+    &=\boxed{\frac{2}{\lambda}}
 \end{align*}
 
 \subsection*{(d)}
@@ -120,7 +123,10 @@ therefore
 \begin{align*}
     E\left[T|T<\frac{1}{\lambda}\right]&=\int_{0}^{\infty}tPr\left(T=t|T<\frac{1}{\lambda}\right)dt\\
     &=\int_{0}^{\frac{1}{\lambda}}t\frac{1}{1-e^{-1}} \lambda e^{-\lambda t} dt\\
-    &=\boxed{\frac{1}{(1-e^{-1})\lambda}}
+    &=\frac{1}{1-e^{-1}}\left(\left. -te^{-\lambda t}\right|_{0}^{\frac{1}{\lambda}}+
+    \int_{0}^{\frac{1}{\lambda}}e^{-\lambda t}\right)\\
+    &=\frac{1}{1-e^{-1}}\left(-\frac{e^{-1}}{\lambda}-\frac{e^{-1}-1}{\lambda}\right)\\
+    &=\boxed{\frac{2-e}{\lambda(e-1)}}
 \end{align*}
 \subsection*{(e)}
 The probabalitiy for an ISI to be greater than the mean ISI is $e^{-1}$, therefore the 
