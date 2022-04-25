@@ -60,9 +60,10 @@ is the prefered direction.
 No because the values of the tuning curve would all be negative
 \subsection*{(c)}
 \begin{align*}
-    \cos(\theta-\theta_0)&=e^{j(\theta-\theta_0)}\\
-    &=(\cos(\theta)+j\sin(\theta))(\cos(\theta_0)-j\sin(\theta_0))\\
-    &=\cos(theta)\cos(theta_0)+\sin(\theta)\sin(\theta_0)
+    \cos(\theta-\theta_0)&=\frac{e^{j(\theta-\theta_0)}+e^{-j(\theta-\theta_0)}}{2}\\
+    &=\frac{(\cos(\theta)+j\sin(\theta))(\cos(\theta_0)-j\sin(\theta_0))+(\cos(\theta)-j\sin(\theta))(\cos(\theta_0)+j\sin(\theta_0))}{2}\\
+    &=\frac{2\cos(\theta)\cos(\theta_0)+2\sin(\theta)\sin(\theta_0)}{2}\\
+    &=\cos(\theta)\cos(\theta_0)+\sin(\theta)\sin(\theta_0)
 \end{align*}
 \subsection*{(d)}
 $$k_0=c_0$$
@@ -117,7 +118,7 @@ we have
 $$Pr\left(T=t|T<\frac{1}{\lambda}\right)=\frac{Pr(T<\frac{1}{\lambda}|T=t)f(T=t)}{Pr(T<\frac{1}{\lambda})}$$
 therefore
 \begin{align*}
-    E[T|<>\frac{1}{\lambda}]&=\int_{0}^{\infty}tPr\left(T=t|T<\frac{1}{\lambda}\right)dt\\
+    E\left[T|T<\frac{1}{\lambda}\right]&=\int_{0}^{\infty}tPr\left(T=t|T<\frac{1}{\lambda}\right)dt\\
     &=\int_{0}^{\frac{1}{\lambda}}t\frac{1}{1-e^{-1}} \lambda e^{-\lambda t} dt\\
     &=\boxed{\frac{1}{(1-e^{-1})\lambda}}
 \end{align*}
@@ -128,11 +129,15 @@ with $p=e^{-1}$. The mean of this distribution is $\frac{1}{p}=e$ therefore the 
 that need to be fired before one sees an ISI less than the mean is $\boxed{e+1}$, since one spike needs to be fired first to measure the ISI.
 \subsection*{(f)}
 Let the expected waiting time be $T_w$ we have
-$$T_w=\sum_{n=1}^\infty p(n) \sum_{i=1}^{n}E(t_i)$$
+$$T_w=\sum_{n=1}^\infty p(n) \left(E[t_n|t_n>\frac{1}{\lambda}]+\sum_{i=1}^{n-1}E[t_i|t_i<\frac{1}{\lambda}]\right)$$
 Where $t_i$ is the ith ISI time, and $p(n)$ is the probablity that the nth watiting time will be the
 first greater than the mean. Thus $p(n)$ is a geometric distribution with $p=\frac{1}{e}$
-$$E(T_w)=\sum_{n=1}^{\infty} p(n)\frac{n}{\lambda}$$
-$$E(T_w)=\boxed{\frac{e}{\lambda}}$$
+\begin{align*}
+    E(T_w)&=
+    \sum_{n=1}^{\infty} p(n)\left(\frac{e}{\lambda}+\frac{n-1}{(1-e^{-1})\lambda}\right)\\
+    &=\frac{e}{\lambda}-\frac{1}{(1-e^{-1})\lambda}+\sum_{n=1}^{\infty} p(n)\frac{n}{(1-e^{-1})\lambda}\\
+    &=\boxed{\frac{e}{\lambda}+\frac{e-1}{(1-e^{-1})\lambda}}
+\end{align*}
 \section*{Problem 5}
 \subsection*{(a)}
 The probablity that electrode 1's neuron does not spike in the first 60ms is 

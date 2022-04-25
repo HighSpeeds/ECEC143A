@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1650751736 "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW2/file.tex" "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW2/file.pdf" "file" 1650751736
+["pdflatex"] 1650827753 "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW2/file.tex" "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW2/file.pdf" "file" 1650827753
   "/etc/texmf/web2c/texmf.cnf" 1649909990 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW2/file.aux" 1650751736 33 e6d77a6cc1977d88a849501f83258f9d ""
-  "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW2/file.tex" 1650751729 6049 f3521941b4636b7c21b8ee45387f3d16 ""
+  "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW2/file.aux" 1650827753 33 caafbda2f246531a72f60df9bc4c0d5b ""
+  "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW2/file.tex" 1650827753 6517 9c6c7a71f4129da5d97b2eeddb5db683 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -77,11 +77,11 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1649909994 128028 f533b797fba58d231669ea19e894e23e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1650655531 1283511 f727d6ed83e9f059692fbbb697e395c5 ""
   "Problem 2 Jupyter.pdf" 1650655902 50636 bcddcf57dabf3b4c8ab9fffc57c0dd0a ""
-  "file.aux" 1650751736 33 e6d77a6cc1977d88a849501f83258f9d "pdflatex"
-  "file.tex" 1650751729 6049 f3521941b4636b7c21b8ee45387f3d16 ""
+  "file.aux" 1650827753 33 caafbda2f246531a72f60df9bc4c0d5b "pdflatex"
+  "file.tex" 1650827753 6517 9c6c7a71f4129da5d97b2eeddb5db683 ""
   (generated)
-  "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW2/file.log"
   "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW2/file.pdf"
-  "file.aux"
   "file.pdf"
+  "file.aux"
   "file.log"
+  "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW2/file.log"
