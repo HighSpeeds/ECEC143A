@@ -1,0 +1,36 @@
+\UseRawInputEncoding
+\documentclass[12pt]{article}
+\title{ECE C143A Homework 3}
+\usepackage{subcaption}
+\author{Lawrence Liu}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{pdfpages}
+\newcommand{\Laplace}{\mathscr{L}}
+\setlength{\parskip}{\baselineskip}%
+\setlength{\parindent}{0pt}%
+\usepackage{xcolor}
+\usepackage{listings}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\usepackage{amssymb}
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour}}
+\lstset{style=mystyle}
+
+\begin{document}
+\maketitle
+\section*{Problem 1}
+\subsection*{(a)}
+\begin{align*}
+    P(M(s)=m)&=\sum_{n=m}^{\infty}\binom{n}{m}(1-p)^mp^{n-m}\frac{(\lambda s)^n}{n!}e^{-\lambda s}\\
+            &=\sum_{n=m}^{\infty}\frac{n!}{m!(n-m)!}(1-p)^mp^{n-m}\frac{(\lambda s)^n}{n!}e^{-\lambda s}\\
+            &=e^{-\lambda s}\frac{(1-p)^m}{m!}\sum_{n=m}^{\infty}\frac{p^{n-m}}{(n-m)!}(\lambda s)^n\\
+            &=e^{-\lambda s}\frac{(1-p)^m}{m!}(\lambda s)^{m}\sum_{n=m}^{\infty}\frac{p^{n-m}}{(n-m)!}(\lambda s)^{n-m}\\
+            &=e^{-\lambda s}\frac{(1-p)^m}{m!}(\lambda s)^{m}\sum_{i=0}^{\infty}\frac{p^{i}}{(i)!}(\lambda s)^{i}\\
+            &=e^{-\lambda s}\frac{(\lambda(1-p)s)^m}{m!}e^{p\lambda s}\\
+            &=\frac{(\lambda(1-p)s)^m}{m!}e^{-\lambda(1-p)s}
+\end{align*}
+Therefore this the distribution of M is Poisson($(1-p)\lambda s$).
+
+
+\end{document}
