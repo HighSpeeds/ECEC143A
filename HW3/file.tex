@@ -38,7 +38,7 @@ $$(1-p)\lambda$$
 We have that the probability of $d$ drops over a time period of $\tau$ is 
 \begin{align*}
     P(D(\tau)=d)&=\sum_{n=d}^{\infty}\binom{n}{d}p^d(1-p)^{n-d}\frac{(\lambda\tau)^n}{n!}e^{-\lambda \tau}\\
-    &=\frac{1}{d!}p^d(\lambda\tau)^d\sum_{n=d}^{\infty}(1-p)^{n-d}(\lambda\tau)^{n-d}e^{-\lambda\tau}\\
+    &=\frac{1}{d!}p^d(\lambda\tau)^de^{-\lambda \tau}\sum_{n=d}^{\infty}(1-p)^{n-d}(\lambda\tau)^{n-d}e^{-\lambda\tau}\\
     &=\frac{1}{d!}p^d(\lambda\tau)^de^{-p\lambda\tau}
 \end{align*}
 Therefore the distribution of the number of drops over a time period $\tau$ is a Poisson distribution with a rate of $\lambda p \tau$
