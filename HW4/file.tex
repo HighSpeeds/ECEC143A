@@ -64,9 +64,9 @@ Furthermore we have
 \end{align*}
 Therefore we have
 \begin{align*}
-    0&=\frac{\partial \log{L}}{\partial \Sigma_k^{-1}}=-N_k\Sigma_k^T+\sum_{i\in k}(\textbf{x}_j-\mu_k)^T(\textbf{x}_j-\mu_k)\\
-    N_k\Sigma_k^T&=\sum_{i\in k}(\textbf{x}_j-\mu_k)^T(\textbf{x}_j-\mu_k)\\
-    \Sigma_k&=\boxed{\frac{1}{N_k}\sum_{i\in k}(\textbf{x}_j-\mu_k)(\textbf{x}_j-\mu_k)^T}
+    0&=\frac{\partial \log{L}}{\partial \Sigma_k^{-1}}=-N_k\Sigma_k^T+\sum_{i\in C_k}(\textbf{x}_j-\mu_k)^T(\textbf{x}_j-\mu_k)\\
+    N_k\Sigma_k^T&=\sum_{i\in C_k}(\textbf{x}_j-\mu_k)^T(\textbf{x}_j-\mu_k)\\
+    \Sigma_k&=\boxed{\frac{1}{N_k}\sum_{i\in C_k}(\textbf{x}_j-\mu_k)(\textbf{x}_j-\mu_k)^T}
 \end{align*}
 And to find the maximum likelihood estimator for $P(C_i)$ we must find the value of $P(C_i)$ for any $i\in k$ such that 
 $\sum_{j \in k} N_j\log(p(C_j))$ is maximized, since $\sum_{i\in K}p(C_i)=1$, we have $\sum_{j \in k} N_j\log(p(C_j))=\sum_{j \in k} N_j\log(p(C_j))+\lambda(\sum_{i\in K}p(C_j)-1)$
@@ -80,5 +80,51 @@ Therefore taking the derivative of each with respect to $P(C_i)$ for any $i\in k
 Solving these we get that $p(C_k)=\boxed{\frac{N_k}{N}}$
 
 \subsection*{(b)}
-
+We have
+\begin{align*}
+    L&=\Pi_{i=0}P(\textbf{x}_i,t_i)\\
+    &=\Pi_{i=0}P(t_i)P(\textbf{x}_i|t_i)
+\end{align*}
+let $P(t_i=j)=P(C_j)$, therefore we have
+\begin{align*}
+    L&=\Pi_{i\in C_1}P(C_1)P(\textbf{x}_i|C_1)\dots \Pi_{i\in C_k}P(C_k)P(\textbf{x}_i|C_k)\\
+    \log(L)&=\sum_{i=1}^{k}N_i\log(P(c_i))+\sum_{j\in C_1}\log(P(\textbf{x}_j|C_1))+
+                    \dots+\sum_{j\in C_k}\log(P(\textbf{x}_j|C_k))
+\end{align*}
+We have
+$$P(\textbf{x}_j|C_k)=\Pi_{i=1}^{D}P(x_i|C_k)$$
+where
+$$P(x_i|C_k)=\text{Poisson}(\lambda_{ik})=\frac{\lambda_{ik}^{x_i}e^{-\lambda_{ik}}}{x_i!}$$
+Therefore we have
+\begin{align*}
+    log(P(\textbf{x}_j|C_k))&=\sum_{i=1}^{D}\log\left(\frac{\lambda_{ik}^{x_i}e^{-\lambda_{ik}}}{x_i!}\right)\\
+    &=\sum_{i=1}^{D}\left(x_i\log(\lambda_{ik})-\lambda_{ik}-\log(x_i!)\right)
+\end{align*}
+the maximum likelihood estimator of $\lambda_{ik}$ is the values such that $\frac{\partial \log{L}}{\partial \lambda_{ik}}=0$, we have
+\begin{align*}
+    \frac{\partial}{\partial \lambda_{ik}}\log(L)&=\frac{\partial}{\partial \lambda_{ik}}\sum_{i=1}^{k}N_i\log(P(c_i))+\frac{\partial}{\partial \lambda_{ik}}\sum_{j\in C_1}\log(P(\textbf{x}_j|C_1))+
+                    \dots+\frac{\partial}{\partial \lambda_{ik}}\sum_{j\in C_k}\log(P(\textbf{x}_j|C_k))\\
+                    &=\frac{\partial}{\partial \lambda_{ik}}\sum_{j\in C_k}\log(P(\textbf{x}_j|C_k))
+\end{align*}
+\begin{align*}
+    \frac{\partial}{\partial \lambda_{ik}}\log(P(\textbf{x}_j|C_k))&=\frac{\partial}{\partial \lambda_{ik}}\left(x_i\log(\lambda_{ik})-\lambda_{ik}-\log(x_i!)\right)\\
+    &=\frac{x_i}{\lambda_{ik}}-1
+\end{align*}
+Therefore we have
+\begin{align*}
+    0&=\frac{\partial}{\partial \lambda_{ik}}\log(L)\\
+    0&=\sum_{j\in C_k}\frac{x_ji}{\lambda_{ik}}-1\\
+    N_k\lambda_{ik}&=\sum_{j\in C_k}x_ji\\
+    \lambda_{ik}&=\boxed{\frac{1}{N_k}\sum_{j\in C_k}x_ji}
+\end{align*}
+And to find the maximum likelihood estimator for $P(C_i)$ we must find the value of $P(C_i)$ for any $i\in k$ such that 
+$\sum_{j \in k} N_j\log(p(C_j))$ is maximized, since $\sum_{i\in K}p(C_i)=1$, we have $\sum_{j \in k} N_j\log(p(C_j))=\sum_{j \in k} N_j\log(p(C_j))+\lambda(\sum_{i\in K}p(C_j)-1)$
+Therefore taking the derivative of each with respect to $P(C_i)$ for any $i\in k$ we get
+\begin{align*}
+    \frac{\partial }{\partial P(C_1)}\sum_{j \in k} N_jp(C_j)+\lambda(\sum_{i\in K}p(C_i)-1)&=\frac{N_j}{C_j}+\lambda=0\\
+    \vdots \\
+    \frac{\partial }{\partial P(C_k)}\sum_{j \in k} N_jp(C_j)+\lambda(\sum_{i\in K}p(C_i)-1)&=\frac{N_k}{C_k}+\lambda=0\\
+    \frac{\partial }{\partial \lambda}\sum_{j \in k} N_jp(C_j)+\lambda(\sum_{i\in K}p(C_i)-1)&=\sum_{i\in K}p(C_i)=1
+\end{align*}
+Solving these we get that $p(C_k)=\boxed{\frac{N_k}{N}}$
 \end{document}
