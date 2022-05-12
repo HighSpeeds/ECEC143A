@@ -45,10 +45,28 @@ Therefore we have
 therefore we have that in order for $\frac{\partial \log{L}}{\partial \mu_k}=0$,
 $$\sum_{j\in C_k}\textbf{x}_k-\mu_k=0$$
 $$\boxed{\mu_k=\frac{1}{N_k}\sum_{j\in C_k}\textbf{x}_k}$$
-Likewise, the maximum likelihood estimator of $\Sigma_k$ is the values such that $\frac{\partial \log{L}}{\partial \Sigma_k}=0$,
+Likewise, the maximum likelihood estimator of $\Sigma_k$ is the values such that $\frac{\partial \log{L}}{\partial \Sigma_k}=0$, this is equivalent to finding the values of
+$\Sigma_k^{-1}$ such that $\frac{\partial \log{L}}{\partial \Sigma_k^{-1}}=0$
 \begin{align*}
-\frac{\partial \log{L}}{\partial \Sigma_k}&=0\\
-&=0    
+\frac{\partial \log{L}}{\partial \Sigma_k^{-1}}&=0\\
+\frac{1}{2}\frac{\partial N_k\log(2\pi\det(\Sigma_k))+\sum_{i\in k}(\textbf{x}_j-\mu_k)^T\Sigma_k^{-1}(\textbf{x}_j-\mu_k)}{\partial \Sigma_k^{-1}}&=0
+\end{align*}
+We have
+\begin{align*}
+    \frac{\partial\log(2\pi\det(\Sigma_k))}{\partial \Sigma_k^{-1}}&=\frac{\partial\log(\det(\Sigma_k))}{\partial \Sigma_k^{-1}}\\
+    &=\frac{1}{\det(\Sigma_k)}\frac{\partial \det(\Sigma_k)}{\partial \Sigma_k^{-1}}\\
+    &=\frac{1}{\det(\Sigma_k)}(-\det(\Sigma_k))\Sigma_k^T\\
+    &=-\Sigma_k^T
+\end{align*}
+Furthermore we have
+\begin{align*}
+    \frac{\partial(\textbf{x}_j-\mu_k)^T\Sigma_k^{-1}(\textbf{x}_j-\mu_k)}{\partial \Sigma_k^{-1}}&=(\textbf{x}_j-\mu_k)^T(\textbf{x}_j-\mu_k)
+\end{align*}
+Therefore we have
+\begin{align*}
+    0&=\frac{\partial \log{L}}{\partial \Sigma_k^{-1}}=-N_k\Sigma_k^T+\sum_{i\in k}(\textbf{x}_j-\mu_k)^T(\textbf{x}_j-\mu_k)\\
+    N_k\Sigma_k^T&=\sum_{i\in k}(\textbf{x}_j-\mu_k)^T(\textbf{x}_j-\mu_k)\\
+    \Sigma_k&=\boxed{\frac{1}{N_k}\sum_{i\in k}(\textbf{x}_j-\mu_k)(\textbf{x}_j-\mu_k)^T}
 \end{align*}
 And to find the maximum likelihood estimator for $P(C_i)$ we must find the value of $P(C_i)$ for any $i\in k$ such that 
 $\sum_{j \in k} N_j\log(p(C_j))$ is maximized, since $\sum_{i\in K}p(C_i)=1$, we have $\sum_{j \in k} N_j\log(p(C_j))=\sum_{j \in k} N_j\log(p(C_j))+\lambda(\sum_{i\in K}p(C_j)-1)$
@@ -60,4 +78,7 @@ Therefore taking the derivative of each with respect to $P(C_i)$ for any $i\in k
     \frac{\partial }{\partial \lambda}\sum_{j \in k} N_jp(C_j)+\lambda(\sum_{i\in K}p(C_i)-1)&=\sum_{i\in K}p(C_i)=1
 \end{align*}
 Solving these we get that $p(C_k)=\boxed{\frac{N_k}{N}}$
+
+\subsection*{(b)}
+
 \end{document}
