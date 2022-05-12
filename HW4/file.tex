@@ -1,0 +1,63 @@
+\UseRawInputEncoding
+\documentclass[12pt]{article}
+\title{ECE C143A Homework 3}
+\usepackage{subcaption}
+\author{Lawrence Liu}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{pdfpages}
+\newcommand{\Laplace}{\mathscr{L}}
+\setlength{\parskip}{\baselineskip}%
+\setlength{\parindent}{0pt}%
+\usepackage{xcolor}
+\usepackage{listings}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\usepackage{amssymb}
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour}}
+\lstset{style=mystyle}
+
+\begin{document}
+\maketitle
+\section*{Problem 1}
+\subsection*{(a)}
+We have
+\begin{align*}
+    L&=\Pi_{i=0}P(\textbf{x}_i,t_i)\\
+    &=\Pi_{i=0}P(t_i)P(\textbf{x}_i|t_i)
+\end{align*}
+let $P(t_i=j)=P(C_j)$, therefore we have
+\begin{align*}
+    L&=\Pi_{i\in C_1}P(C_1)P(\textbf{x}_i|C_1)\dots \Pi_{i\in C_k}P(C_k)P(\textbf{x}_i|C_k)\\
+    \log(L)&=\sum_{i=1}^{k}N_i\log(P(c_i))+\sum_{j\in C_1}\log(P(\textbf{x}_j|C_1))+
+                    \dots+\sum_{j\in C_k}\log(P(\textbf{x}_j|C_k))
+\end{align*}
+We have
+$$P(\textbf{x}_j|C_k)=(2\pi\det(\Sigma_k))^{-\frac{1}{2}}\exp(-\frac{1}{2}(\textbf{x}_j-\mu_k)^T\Sigma_k^{-1}(\textbf{x}_j-\mu_k))$$
+$$\log(P(\textbf{x}_j|C_k))=-\frac{1}{2}\log(2\pi\det(\Sigma_k))-\frac{1}{2}(\textbf{x}_j-\mu_k)^T\Sigma_k^{-1}(\textbf{x}_j-\mu_k)$$
+In order to find the maximum likelihood estimator $\mu_k$ we find the values of $\mu_k$ such that $\frac{\partial \log{L}}{\partial \mu_k}=0$,
+Therefore we have
+\begin{align*}
+\frac{\partial \log{L}}{\partial \mu_k}&=\sum_{j\in C_k}-\frac{1}{2}\frac{\partial}{\partial\mu_k}(\textbf{x}_j-\mu_k)^T\Sigma_k^{-1}(\textbf{x}_j-\mu_k)
+&=-\frac{1}{2}\sum_{j\in C_k}(\Sigma_k+\Sigma_k^{T})(\textbf{x}_k-\mu_k)\\
+&=-\frac{1}{2}(\Sigma_k+\Sigma_k^{T})\sum_{j\in C_k}\textbf{x}_k-\mu_k
+\end{align*}
+therefore we have that in order for $\frac{\partial \log{L}}{\partial \mu_k}=0$,
+$$\sum_{j\in C_k}\textbf{x}_k-\mu_k=0$$
+$$\boxed{\mu_k=\frac{1}{N_k}\sum_{j\in C_k}\textbf{x}_k}$$
+Likewise, the maximum likelihood estimator of $\Sigma_k$ is the values such that $\frac{\partial \log{L}}{\partial \Sigma_k}=0$,
+\begin{align*}
+\frac{\partial \log{L}}{\partial \Sigma_k}&=0\\
+&=0    
+\end{align*}
+And to find the maximum likelihood estimator for $P(C_i)$ we must find the value of $P(C_i)$ for any $i\in k$ such that 
+$\sum_{j \in k} N_j\log(p(C_j))$ is maximized, since $\sum_{i\in K}p(C_i)=1$, we have $\sum_{j \in k} N_j\log(p(C_j))=\sum_{j \in k} N_j\log(p(C_j))+\lambda(\sum_{i\in K}p(C_j)-1)$
+Therefore taking the derivative of each with respect to $P(C_i)$ for any $i\in k$ we get
+\begin{align*}
+    \frac{\partial }{\partial P(C_1)}\sum_{j \in k} N_jp(C_j)+\lambda(\sum_{i\in K}p(C_i)-1)&=\frac{N_j}{C_j}+\lambda=0\\
+    \vdots \\
+    \frac{\partial }{\partial P(C_k)}\sum_{j \in k} N_jp(C_j)+\lambda(\sum_{i\in K}p(C_i)-1)&=\frac{N_k}{C_k}+\lambda=0\\
+    \frac{\partial }{\partial \lambda}\sum_{j \in k} N_jp(C_j)+\lambda(\sum_{i\in K}p(C_i)-1)&=\sum_{i\in K}p(C_i)=1
+\end{align*}
+Solving these we get that $p(C_k)=\boxed{\frac{N_k}{N}}$
+\end{document}
