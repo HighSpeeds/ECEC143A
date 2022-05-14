@@ -127,4 +127,24 @@ Therefore taking the derivative of each with respect to $P(C_i)$ for any $i\in k
     \frac{\partial }{\partial \lambda}\sum_{j \in k} N_jp(C_j)+\lambda(\sum_{i\in K}p(C_i)-1)&=\sum_{i\in K}p(C_i)=1
 \end{align*}
 Solving these we get that $p(C_k)=\boxed{\frac{N_k}{N}}$
+\section*{Problem 2}
+\subsection*{(a)}
+We have that the decision boundary is all values of $\textbf{x}$ such that 
+$$P(\textbf{x},C_1)=P(\textbf{x},C_2)$$
+Therefore we must have 
+\begin{align*}
+    P(C_1)P(\textbf{x}|C_1)&=P(C_1)P(\textbf{x}|C_2)\\
+    log(P(C_1))-\frac{1}{2}\log(2\pi\det(\Sigma_1))-\frac{1}{2}(\textbf{x}-\mu_1)^T\Sigma_1^{-1}(\textbf{x}_j-\mu_1)&=\\
+    log(P(C_2))-\frac{1}{2}\log(2\pi\det(\Sigma_2))-\frac{1}{2}(\textbf{x}-\mu_2)^T\Sigma_2^{-1}(\textbf{x}_j-\mu_2)
+\end{align*}
+This is not linear since the $\textbf{x}^2$ term will not cancel. Therefore there will not a linear decision boundary
+\subsection*{(b)}
+We have that the decision boundary is all values of $\textbf{x}$ such that 
+$$P(\textbf{x},C_1)=P(\textbf{x},C_2)$$
+Therefore we must have 
+\begin{align*}
+    P(C_1)P(\textbf{x}|C_1)&=P(C_1)P(\textbf{x}|C_2)\\
+    log(P(C_1))\sum_{i=1}^{D}\left(x_i\log(\lambda_{i1})-\lambda_{i1}-\log(x_i!)\right)&=log(P(C_2))\sum_{i=1}^{D}\left(x_i\log(\lambda_{i2})-\lambda_{i2}-\log(x_i!)\right)
+\end{align*}
+This is a linear, therefore there will be a linear decision boundary.
 \end{document}
