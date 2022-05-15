@@ -5,6 +5,7 @@
 \author{Lawrence Liu}
 \usepackage{graphicx}
 \usepackage{amsmath}
+\usepackage{bm}
 \usepackage{pdfpages}
 \newcommand{\Laplace}{\mathscr{L}}
 \setlength{\parskip}{\baselineskip}%
@@ -134,17 +135,46 @@ $$P(\textbf{x},C_1)=P(\textbf{x},C_2)$$
 Therefore we must have 
 \begin{align*}
     P(C_1)P(\textbf{x}|C_1)&=P(C_1)P(\textbf{x}|C_2)\\
-    log(P(C_1))-\frac{1}{2}\log(2\pi\det(\Sigma_1))-\frac{1}{2}(\textbf{x}-\mu_1)^T\Sigma_1^{-1}(\textbf{x}_j-\mu_1)&=\\
-    log(P(C_2))-\frac{1}{2}\log(2\pi\det(\Sigma_2))-\frac{1}{2}(\textbf{x}-\mu_2)^T\Sigma_2^{-1}(\textbf{x}_j-\mu_2)
+    log(P(C_1))-\frac{1}{2}\log(2\pi\det(\Sigma_1))-\frac{1}{2}(\textbf{x}-\mu_1)^T\Sigma_1^{-1}(\textbf{x}-\mu_1)&=\\
+    log(P(C_2))-\frac{1}{2}\log(2\pi\det(\Sigma_2))-\frac{1}{2}(\textbf{x}-\mu_2)^T\Sigma_2^{-1}(\textbf{x}-\mu_2)
 \end{align*}
-This is not linear since the $\textbf{x}^2$ term will not cancel. Therefore there will not a linear decision boundary
+Therefore the decision boundary is
+$$\boxed{\textbf{x}^TA\textbf{x}+B\textbf{x}+C=0}$$
+where
+$$A=\frac{1}{2}(\Sigma_1^{-1}-\Sigma_2^{-1})$$
+$$B=\mu_2^T\Sigma_2^{-1}-\mu_1^T\Sigma_1^{-1}$$
+\begin{multline*}
+    C=\log(P(C_2))-\log(P(C_1))+\frac{1}{2}\log(2\pi\det(\Sigma_1))-\frac{1}{2}\log(2\pi\det(\Sigma_2))\\
++\frac{1}{2}\mu_1^T\Sigma_1^{-1}\mu_1-\frac{1}{2}\mu_2^T\Sigma_2^{-1}\mu_2
+\end{multline*}
+This is not linear, therefore the linear decision boundary is not linear
 \subsection*{(b)}
 We have that the decision boundary is all values of $\textbf{x}$ such that 
 $$P(\textbf{x},C_1)=P(\textbf{x},C_2)$$
 Therefore we must have 
 \begin{align*}
     P(C_1)P(\textbf{x}|C_1)&=P(C_1)P(\textbf{x}|C_2)\\
-    log(P(C_1))\sum_{i=1}^{D}\left(x_i\log(\lambda_{i1})-\lambda_{i1}-\log(x_i!)\right)&=log(P(C_2))\sum_{i=1}^{D}\left(x_i\log(\lambda_{i2})-\lambda_{i2}-\log(x_i!)\right)
+    log(P(C_1))+\sum_{i=1}^{D}\left(x_i\log(\lambda_{i1})-\lambda_{i1}-\log(x_i!)\right)&=log(P(C_2))+\sum_{i=1}^{D}\left(x_i\log(\lambda_{i2})-\lambda_{i2}-\log(x_i!)\right)
 \end{align*}
-This is a linear, therefore there will be a linear decision boundary.
+let $\bm{\lambda}_1=\begin{bmatrix}
+    \lambda_{11} \\
+    \vdots \\
+    \lambda_{D1}
+  \end{bmatrix}$, and $\bm{\lambda}_2=\begin{bmatrix}
+    \lambda_{12} \\
+    \vdots \\
+    \lambda_{D2}
+  \end{bmatrix}$, we have
+\begin{align*}
+    \log(P(C_1))-\sum_{i=1}^{D}\lambda_{i1}+\log(\bm{\lambda}_1)^T\textbf{x}&=
+    \log(P(C_2))-\sum_{i=1}^{D}\lambda_{i2}+\log(\bm{\lambda}_2)^T\textbf{x}
+\end{align*}
+Therefore the decision boundary is,
+$$\boxed{\log(P(C_1))-\sum_{i=1}^{D}\lambda_{i1}-\log(P(C_2))+\sum_{i=1}^{D}\lambda_{i2}=
+(\log(\bm{\lambda}_2)^T-\log(\bm{\lambda}_1)^T)\textbf{x}}$$
+Therefore there will be a linear decision boundary.
+%\section*{Problem 3}
+\includepdf[pages=-]{hw4p3.pdf}
+%\section*{Problem 4}
+\includepdf[pages=-]{hw4p4.pdf}
 \end{document}
