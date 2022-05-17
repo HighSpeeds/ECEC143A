@@ -28,7 +28,7 @@ We want $P(N=0|R=0)$, we know that
 $$P(R=1|N=0)=P(E=0)P(R=1|E=0,N=0)+P(E=1)P(R=1|E=1,N=0)=0.01$$
 $P(R=0|N=0)=0.99$ and thus from bayes law we have 
 \begin{align*}
-    P(E=0,N=0|R=0)&=P(R=0|N=0)\frac{P(N=0)}{P(R=0)}\\
+    P(N=0|R=0)&=P(R=0|N=0)\frac{P(N=0)}{P(R=0)}\\
     &=0.9\frac{0.1\cdot 0.25}{P(R=0)}
 \end{align*}
 To find $P(R=0)$ we must find $P(R=1)$,
@@ -40,7 +40,17 @@ To find $P(R=0)$ we must find $P(R=1)$,
     P(R=1)=0.9\cdot0.25\cdot 1+0.1\cdot0.25\cdot0.1+0.1\cdot 0.75\cdot 0.1=0.235
 \end{multline*}
 Therefore $P(R=0)=1-P(R=1)=0.765$, thus
-$$P(E=0,N=0|R=0)=0.99\frac{0.25}{P(R=0)}=\boxed{0.3235}$$
+$$P(N=0|R=0)=0.99\frac{0.25}{P(R=0)}=\boxed{0.3235}$$
 \subsection*{(c)}
+We have
+\begin{align*}
+    P(E=0,N=0|R=0)&=\frac{P(E=0,N=0,R=0)} {P(R=0)}\\
+    &=\frac{P(R=0|E=0,N=0)P(E=0)P(N=0)} {P(R=0)}\\
+    &=\frac{(1-P(R=1|E=0,N=0))P(E=0)P(N=0)} {P(R=0)}\\
+    &=\frac{0.9\cdot0.1\cdot0.75}{0.765}\\
+    &=\boxed{0.088}
+\end{align*}
+This intuitively makes sense because we need two conidtions to occur, equipment broken and neuron spike not occuring.
+
 
 \end{document}
