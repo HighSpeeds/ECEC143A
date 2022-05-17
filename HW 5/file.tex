@@ -1,0 +1,46 @@
+\UseRawInputEncoding
+\documentclass[12pt]{article}
+\title{ECE C143A Homework 3}
+\usepackage{subcaption}
+\author{Lawrence Liu}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{bm}
+\usepackage{pdfpages}
+\newcommand{\Laplace}{\mathscr{L}}
+\setlength{\parskip}{\baselineskip}%
+\setlength{\parindent}{0pt}%
+\usepackage{xcolor}
+\usepackage{listings}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\usepackage{amssymb}
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour}}
+\lstset{style=mystyle}
+
+\begin{document}
+\maketitle
+\section*{Problem 1}
+\subsection*{(a)}
+$P(N=0)=1-0.25=\boxed{0.75}$
+\subsection*{(b)}
+We want $P(N=0|R=0)$, we know that
+$$P(R=1|N=0)=P(E=0)P(R=1|E=0,N=0)+P(E=1)P(R=1|E=1,N=0)=0.01$$
+$P(R=0|N=0)=0.99$ and thus from bayes law we have 
+\begin{align*}
+    P(E=0,N=0|R=0)&=P(R=0|N=0)\frac{P(N=0)}{P(R=0)}\\
+    &=0.9\frac{0.1\cdot 0.25}{P(R=0)}
+\end{align*}
+To find $P(R=0)$ we must find $P(R=1)$,
+\begin{multline*}
+    P(R=1)=P(E=1)P(N=1)P(R=1|E=1,N=1)\\+P(E=1)P(N=0)P(R=1|E=1,N=0)
+    \\+P(E=0)P(N=1)P(R=1|E=0,N=1)\\+P(E=0)P(N=0)P(R=1|E=0,N=0)
+\end{multline*}
+\begin{multline*}
+    P(R=1)=0.9\cdot0.25\cdot 1+0.1\cdot0.25\cdot0.1+0.1\cdot 0.75\cdot 0.1=0.235
+\end{multline*}
+Therefore $P(R=0)=1-P(R=1)=0.765$, thus
+$$P(E=0,N=0|R=0)=0.99\frac{0.25}{P(R=0)}=\boxed{0.3235}$$
+\subsection*{(c)}
+
+\end{document}
