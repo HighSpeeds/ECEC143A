@@ -102,6 +102,22 @@ Therefore $a$ and $d$ are independent
 \begin{align*}
     P(a,d|b)&= \frac{P(a,d,b)}{P(b)}\\
     &=\frac{P(a)P(d)P(b|a,d)}{P(b)}\\
-    &=
+    &=\frac{P(a)P(d)}{P(b)}\frac{P(b|d)P(a|b,d)}{P(a|d)}\\
+    &=boxed{P(a|b,d)P(d|b)}
  \end{align*}
+ Therefore $a$ and $d$ are not independent given $b$
+ \subsection*{(f)}
+ \begin{align*}
+    P(c,b)&=  \sum_{A}P(c,b,a)\\
+    &=\sum_{A}P(c)P(a|c)P(b|a)\\
+    &=P(c)\sum_{A}P(a|c)P(b|a)
+ \end{align*}
+ Since $\sum_{A}P(a|c)P(b|a)\neq P(b)$ in general, $c$ and $b$ are not independent.
+ \subsection*{(g)}
+ \begin{align*}
+    P(c,b|a)&=  \frac{P(c,b,a)}{a}\\
+    &=\frac{P(c)P(a|c)P(b|a)}{P(a)}\\
+    &=P(c|a)P(b|a)
+ \end{align*}
+ Therefore $c$ and $b$ are independent given $a$.
 \end{document}
