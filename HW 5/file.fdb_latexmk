@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1652917652 "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW 5/file.tex" "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW 5/file.pdf" "file" 1652917653
+["pdflatex"] 1652917660 "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW 5/file.tex" "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW 5/file.pdf" "file" 1652917660
   "/etc/texmf/web2c/texmf.cnf" 1649909990 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW 5/file.aux" 1652917653 32 77e0dffd05b653a64f0caf3eb9bb454a ""
-  "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW 5/file.tex" 1652917652 4049 1d4d3985c355748f024e9da8c62150ff ""
+  "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW 5/file.aux" 1652917660 32 77e0dffd05b653a64f0caf3eb9bb454a ""
+  "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW 5/file.tex" 1652917659 4050 865546e00580cd4841181c0c6d70bf5f ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1246382020 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -83,11 +83,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1613593815 38841 799d1dd9682a55ce442e10c99777ecc1 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1649909994 128028 f533b797fba58d231669ea19e894e23e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1650655531 1283511 f727d6ed83e9f059692fbbb697e395c5 ""
-  "file.aux" 1652917653 32 77e0dffd05b653a64f0caf3eb9bb454a "pdflatex"
-  "file.tex" 1652917652 4049 1d4d3985c355748f024e9da8c62150ff ""
+  "file.aux" 1652917660 32 77e0dffd05b653a64f0caf3eb9bb454a "pdflatex"
+  "file.tex" 1652917659 4050 865546e00580cd4841181c0c6d70bf5f ""
   (generated)
   "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW 5/file.log"
-  "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW 5/file.pdf"
   "file.log"
-  "file.aux"
   "file.pdf"
+  "file.aux"
+  "/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW 5/file.pdf"
