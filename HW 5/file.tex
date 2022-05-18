@@ -1,6 +1,6 @@
 \UseRawInputEncoding
 \documentclass[12pt]{article}
-\title{ECE C143A Homework 3}
+\title{ECE C143A Homework 4}
 \usepackage{subcaption}
 \author{Lawrence Liu}
 \usepackage{graphicx}
@@ -29,7 +29,7 @@ $$P(R=1|N=0)=P(E=0)P(R=1|E=0,N=0)+P(E=1)P(R=1|E=1,N=0)=0.01$$
 $P(R=0|N=0)=0.99$ and thus from bayes law we have 
 \begin{align*}
     P(N=0|R=0)&=P(R=0|N=0)\frac{P(N=0)}{P(R=0)}\\
-    &=0.9\frac{0.1\cdot 0.25}{P(R=0)}
+    &=0.9\frac{0.1\cdot 0.75}{P(R=0)}
 \end{align*}
 To find $P(R=0)$ we must find $P(R=1)$,
 \begin{multline*}
@@ -37,10 +37,10 @@ To find $P(R=0)$ we must find $P(R=1)$,
     \\+P(E=0)P(N=1)P(R=1|E=0,N=1)\\+P(E=0)P(N=0)P(R=1|E=0,N=0)
 \end{multline*}
 \begin{multline*}
-    P(R=1)=0.9\cdot0.25\cdot 1+0.1\cdot0.25\cdot0.1+0.1\cdot 0.75\cdot 0.1=0.235
+    P(R=1)=0.9\cdot0.25\cdot 1+0.1\cdot0.75\cdot0.1+0.1\cdot 0.25\cdot 0.1=0.235
 \end{multline*}
 Therefore $P(R=0)=1-P(R=1)=0.765$, thus
-$$P(N=0|R=0)=0.99\frac{0.25}{P(R=0)}=\boxed{0.3235}$$
+$$P(N=0|R=0)=0.99\frac{0.75}{P(R=0)}=\boxed{0.97}$$
 \subsection*{(c)}
 We have
 \begin{align*}
@@ -68,7 +68,22 @@ This therefore $P(E=1|R=1)>1$, likewise
 \end{align*}
 This therefore $P(E=1|R=1)>1$, therfore, $P(E=1|R=1)P(N=0|R=1)>0$ and is not equal to $P(E=1,N=0|R=1)$ therefore they are conditionally dependent.
 Ie they are not independent given R
-
+\section*{Problem 2}
+\subsection*{(a)}
+$$\boxed{P(a,b,c,d)=P(c)P(a|c)P(d)P(b|a,d)}$$
+\subsection*{(b)}
+\begin{align*}
+    P(C,D)&=\sum_{A}P(C,D,A)\\
+    &=\sum_{A}P(A)P(C|A)P(D|A)\\
+    &=\sum_{A}P(C)P(A|C)P(D|A)\\
+    &=P(C)\sum_{A}P(A|C)P(D|A)
+\end{align*}
+In order for this to be independent we must have that $\sum_{A}P(A|C)P(D|A)=P(D)$
+This will occur if and only if $P(D|A)=P(D)$ or $P(A|C)=P(A)$, this generally will not hold true because that would
+mean that either $A$ is independent of $C$ or $A$ is independent of $D$, neither of which should hold true.
+Therefore $C$ and $D$ are not independent.
+\subsection*{(b)}
+ 
 
 
 
