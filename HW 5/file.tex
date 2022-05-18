@@ -73,20 +73,35 @@ Ie they are not independent given R
 $$\boxed{P(a,b,c,d)=P(c)P(a|c)P(d)P(b|a,d)}$$
 \subsection*{(b)}
 \begin{align*}
-    P(C,D)&=\sum_{A}P(C,D,A)\\
-    &=\sum_{A}P(A)P(C|A)P(D|A)\\
-    &=\sum_{A}P(C)P(A|C)P(D|A)\\
-    &=P(C)\sum_{A}P(A|C)P(D|A)
+    P(C,D)&=\sum_{A}\sum_{B}P(C,D,A,B)\\
+    &=\sum_{A}\sum_{B}P(C)P(D)P(A|C)P(B|A,D)\\
+    &=P(C)P(D)\sum_{A}\sum_{B}P(A|C)P(B|A,D)\\
+    &=P(C)P(D)\sum_{A}P(A|C)\sum_{B}P(B|A)\\
+    &=P(C)P(D)
 \end{align*}
-In order for this to be independent we must have that $\sum_{A}P(A|C)P(D|A)=P(D)$
-This will occur if and only if $P(D|A)=P(D)$ or $P(A|C)=P(A)$, this generally will not hold true because that would
-mean that either $A$ is independent of $C$ or $A$ is independent of $D$, neither of which should hold true.
-Therefore $C$ and $D$ are not independent.
+Therefore $C$ and $D$ are independent.
 \subsection*{(c)}
-
-
-
-
-
-
+\begin{align*}
+    P(C,D|A,B)&=\frac{P(C,D,A,B)}{P(A,B)}\\
+    &=\frac{P(C)P(D)P(A|C)P(B|A,D)}{P(A,B)}\\
+    &=\frac{P(D)P(C|A)P(A)P(B|A,D)}{P(A,B)}\\
+    &=\frac{P(D)P(C|A)P(D|B,A)}{P(D|A)}\\
+    &=\frac{P(D)}{P(D|A)}P(C|A)P(D|B,A)\\
+    &=\frac{P(C|A)P(D|B,A)}{P(D,A)}
+\end{align*}
+Therefore $C$ and $D$ are not independent given A and B.
+\subsection*{(d)}
+\begin{align*}
+   P(a,d)&= \sum_{B}P(a,d,b)\\
+   &=\sum_{a}P(d)P(b)P(b|d,a)\\
+   &=P(d)P(b)\sum_{B}P(b|d,a)\\
+   &=P(d)P(b)
+\end{align*}
+Therefore $a$ and $d$ are independent
+\subsection*{(e)}
+\begin{align*}
+    P(a,d|b)&= \frac{P(a,d,b)}{P(b)}\\
+    &=\frac{P(a)P(d)P(b|a,d)}{P(b)}\\
+    &=
+ \end{align*}
 \end{document}
