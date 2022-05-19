@@ -120,4 +120,55 @@ Therefore $a$ and $d$ are independent
     &=P(c|a)P(b|a)
  \end{align*}
  Therefore $c$ and $b$ are independent given $a$.
+\section*{Problem 3}
+\subsection*{(a)}
+TODO
+\subsection*{(b)}
+$$P(x_1,...,x_D,z)=\boxed{P(z)\Pi_{i=1}^{D}P(x_1|z)}$$
+\subsection*{(c)}
+Yes they are independent, intuitively thinking for two any two dimensions $x_i$ and $x_j$, this becomes a graphical model with one parent and two children, which was proved in lecture to 
+be independent.
+
+ \section*{Problem 4}
+ \subsection*{(a)}
+
+$$P(x_1,x_2,x_3,x_4)=\boxed{P(x_1)P(x_2|x_1)P(x_3|x_2)P(x_4|x_3)}$$
+\subsection*{(b)}
+for $x_i$ we have
+\begin{align*}
+    Var(x_i)&=E[x_i^2]-E^2[x_i]\\
+    &=E[E[x_i^2|x_{i-1}]]\\
+    &=E[\sigma^2+x_{i-1}^2]\\
+    &=\sigma^2+E[E[x_{i-1}^2|x_{i-2}]]\\
+    &\vdots\\
+    &=i\sigma^2
+\end{align*}
+And for any $i$ and $j$ such that $i<j$
+\begin{align*}
+    Cov(x_i,x_j)&=E[(x_i-E[x_j])(x_i-E[x_j])]\\
+    &=E[x_ix_j]\\
+    &=E[E[x_ix_j|x_{j-1}]]\\
+    &=E[x_ix_{j-1}]\\
+    &\vdots\\
+    &=E[x_i^2]\\
+    &=i\sigma^2
+\end{align*}
+Therefore, the covariance matrix $\Sigma$ is
+$$\Sigma=\boxed{\begin{bmatrix}
+    \sigma^2 & \sigma^2 & \sigma^2 & \sigma^2\\
+    \sigma^2 & 2\sigma^2 & 2\sigma^2 & 2\sigma^2\\
+    \sigma^2 & 2\sigma^2 & 3\sigma^2 & 3\sigma^2\\
+    \sigma^2 & 2\sigma^2 & 3\sigma^2 & 4\sigma^2
+    \end{bmatrix}}$$
+
+\subsection*{(c)}
+From python the inverse of the precision matrix is 
+$$\Sigma^{-1}=\frac{1}{\sigma^2}\boxed{\begin{bmatrix}
+    2 & -1 &  0 &  0\\
+    -1&  2& -1&  0\\
+    0 & -1&  2& -1\\
+    0 & 0 & -1 & 1
+    \end{bmatrix}}$$
+\subsection*{(d)}
+The zeros occur only when the nodes have at least one node in between, therefore these nodes are conditionally independent.
 \end{document}
