@@ -85,12 +85,13 @@ Therefore $C$ and $D$ are independent.
 \begin{align*}
     P(C,D|A,B)&=\frac{P(C,D,A,B)}{P(A,B)}\\
     &=\frac{P(C)P(D)P(A|C)P(B|A,D)}{P(A,B)}\\
-    &=\frac{P(D)P(C|A)P(A)P(B|A,D)}{P(A,B)}\\
-    &=\frac{P(D)P(C|A)P(D|B,A)}{P(D|A)}\\
-    &=\frac{P(D)}{P(D|A)}P(C|A)P(D|B,A)\\
-    &=\frac{P(C|A)P(D|B,A)}{P(D,A)}
+    &=\frac{P(C)P(D)P(A|C)P(B,A,D)}{P(A,B)P(A,D)}\\
+    &=\frac{P(C)P(D)P(A|C)P(D|B,A)}{P(A,D)}\\
+    &=\frac{P(C)P(A|C)P(D|B,A)}{P(A)}\\
+    &=P(C|A)P(D|B,A)
+    &=P(C|B,A)P(D|B,A)
 \end{align*}
-Therefore $C$ and $D$ are not independent given A and B.
+Therefore $C$ and $D$ are independent given A and B.
 \subsection*{(d)}
 \begin{align*}
    P(a,d)&= \sum_{B}P(a,d,b)\\
@@ -128,7 +129,7 @@ Therefore $a$ and $d$ are independent
 $$P(x_1,...,x_D,z)=\boxed{P(z)\Pi_{i=1}^{D}P(x_1|z)}$$
 \subsection*{(c)}
 Yes they are independent, intuitively thinking for two any two dimensions $x_i$ and $x_j$, this becomes a graphical model with one parent and two children, which was proved in lecture to 
-be independent.
+be not independent.
 
  \section*{Problem 4}
  \subsection*{(a)}
