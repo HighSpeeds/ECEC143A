@@ -1,0 +1,833 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.4.22)  2 JUN 2022 15:40
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/file.tex
+(/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/file.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-01-09> xparse <2020-03-03> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count177
+\c@section=\count178
+\c@subsection=\count179
+\c@subsubsection=\count180
+\c@paragraph=\count181
+\c@subparagraph=\count182
+\c@figure=\count183
+\c@table=\count184
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+\captionmargin=\dimen139
+\captionmargin@=\dimen140
+\captionwidth=\dimen141
+\caption@tempdima=\dimen142
+\caption@indent=\dimen143
+\caption@parindent=\dimen144
+\caption@hangindent=\dimen145
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count185
+\c@continuedfloat=\count186
+)
+\c@subfigure=\count187
+\c@subtable=\count188
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen146
+\Gin@req@width=\dimen147
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen148
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen149
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count189
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count190
+\leftroot@=\count191
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count192
+\DOTSCASE@=\count193
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen150
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count194
+\c@MaxMatrixCols=\count195
+\dotsspace@=\muskip16
+\c@parentequation=\count196
+\dspbrk@lvl=\count197
+\tag@help=\toks17
+\row@=\count198
+\column@=\count199
+\maxfields@=\count266
+\andhelp@=\toks18
+\eqnshift@=\dimen151
+\alignsep@=\dimen152
+\tagshift@=\dimen153
+\tagwidth@=\dimen154
+\totwidth@=\dimen155
+\lineht@=\dimen156
+\@envbody=\toks19
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+) (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2021/01/09 v0.5r Insert pages of external PDF documents (AM)
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count267
+\calc@Bcount=\count268
+\calc@Adimen=\dimen157
+\calc@Bdimen=\dimen158
+\calc@Askip=\skip52
+\calc@Bskip=\skip53
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count269
+\calc@Cskip=\skip54
+) (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen159
+\ESO@tempdimb=\dimen160
+ (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen161
+\AM@pageheight=\dimen162
+ (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2021/01/09 v0.5r Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count270
+\AM@pagebox=\box49
+\AM@global@opts=\toks21
+\AM@pagecnt=\count271
+\AM@toc@title=\toks22
+\c@AM@survey=\count272
+\AM@templatesizebox=\box50
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count273
+\lst@gtempboxa=\box51
+\lst@token=\toks23
+\lst@length=\count274
+\lst@currlwidth=\dimen163
+\lst@column=\count275
+\lst@pos=\count276
+\lst@lostspace=\dimen164
+\lst@width=\dimen165
+\lst@newlines=\count277
+\lst@lineno=\count278
+\lst@maxwidth=\dimen166
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count279
+\lst@skipnumbers=\count280
+\lst@framebox=\box52
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count281
+\l__pdf_internal_box=\box53
+) (/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/file.aux)
+\openout1 = `file.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count282
+\scratchdimen=\dimen167
+\scratchbox=\box54
+\nofMPsegments=\count283
+\nofMParguments=\count284
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count285
+\MPscratchDim=\dimen168
+\MPnumerator=\count286
+\makeMPintoPDFobject=\count287
+\everyMPtoPDFconversion=\toks25
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+)) (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+\c@lstlisting=\count288
+LaTeX Font Info:    Trying to load font information for U+msa on input line 19.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 19.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<hw6p1.pdf, id=1, 614.295pt x 794.97pt>
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf>
+Package pdftex.def Info: hw6p1.pdf  used on input line 20.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf>
+Package pdftex.def Info: hw6p1.pdf  used on input line 20.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<hw6p1.pdf, id=4, page=1, 614.295pt x 794.97pt>
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 1>
+Package pdftex.def Info: hw6p1.pdf , page1 used on input line 20.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 1>
+Package pdftex.def Info: hw6p1.pdf , page1 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 1>
+Package pdftex.def Info: hw6p1.pdf , page1 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 1>
+Package pdftex.def Info: hw6p1.pdf , page1 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 1>
+Package pdftex.def Info: hw6p1.pdf , page1 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [2 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p1.pdf>]
+<hw6p1.pdf, id=65, page=2, 614.295pt x 794.97pt>
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 2>
+Package pdftex.def Info: hw6p1.pdf , page2 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 2>
+Package pdftex.def Info: hw6p1.pdf , page2 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 2>
+Package pdftex.def Info: hw6p1.pdf , page2 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [3 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p1.pdf>]
+<hw6p1.pdf, id=94, page=3, 614.295pt x 794.97pt>
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 3>
+Package pdftex.def Info: hw6p1.pdf , page3 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 3>
+Package pdftex.def Info: hw6p1.pdf , page3 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 3>
+Package pdftex.def Info: hw6p1.pdf , page3 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [4 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p1.pdf>]
+<hw6p1.pdf, id=100, page=4, 614.295pt x 794.97pt>
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 4>
+Package pdftex.def Info: hw6p1.pdf , page4 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 4>
+Package pdftex.def Info: hw6p1.pdf , page4 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 4>
+Package pdftex.def Info: hw6p1.pdf , page4 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [5 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p1.pdf>]
+<hw6p1.pdf, id=121, page=5, 614.295pt x 794.97pt>
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 5>
+Package pdftex.def Info: hw6p1.pdf , page5 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 5>
+Package pdftex.def Info: hw6p1.pdf , page5 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 5>
+Package pdftex.def Info: hw6p1.pdf , page5 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [6 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p1.pdf>]
+<hw6p1.pdf, id=125, page=6, 614.295pt x 794.97pt>
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 6>
+Package pdftex.def Info: hw6p1.pdf , page6 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 6>
+Package pdftex.def Info: hw6p1.pdf , page6 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 6>
+Package pdftex.def Info: hw6p1.pdf , page6 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [7 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p1.pdf>]
+<hw6p1.pdf, id=132, page=7, 614.295pt x 794.97pt>
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 7>
+Package pdftex.def Info: hw6p1.pdf , page7 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 7>
+Package pdftex.def Info: hw6p1.pdf , page7 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 7>
+Package pdftex.def Info: hw6p1.pdf , page7 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [8 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p1.pdf>]
+<hw6p1.pdf, id=136, page=8, 614.295pt x 794.97pt>
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 8>
+Package pdftex.def Info: hw6p1.pdf , page8 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 8>
+Package pdftex.def Info: hw6p1.pdf , page8 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 8>
+Package pdftex.def Info: hw6p1.pdf , page8 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [9 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p1.pdf>]
+<hw6p1.pdf, id=142, page=9, 614.295pt x 794.97pt>
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 9>
+Package pdftex.def Info: hw6p1.pdf , page9 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 9>
+Package pdftex.def Info: hw6p1.pdf , page9 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 9>
+Package pdftex.def Info: hw6p1.pdf , page9 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [10 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p1.pdf>]
+<hw6p1.pdf, id=148, page=10, 614.295pt x 794.97pt>
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 10>
+Package pdftex.def Info: hw6p1.pdf , page10 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 10>
+Package pdftex.def Info: hw6p1.pdf , page10 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 10>
+Package pdftex.def Info: hw6p1.pdf , page10 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [11 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p1.pdf>]
+<hw6p1.pdf, id=152, page=11, 614.295pt x 794.97pt>
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 11>
+Package pdftex.def Info: hw6p1.pdf , page11 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 11>
+Package pdftex.def Info: hw6p1.pdf , page11 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p1.pdf Graphic file (type pdf)
+<use hw6p1.pdf, page 11>
+Package pdftex.def Info: hw6p1.pdf , page11 used on input line 20.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [12 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p1.pdf>]
+<hw6p2.pdf, id=158, 614.295pt x 794.97pt>
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf>
+Package pdftex.def Info: hw6p2.pdf  used on input line 21.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf>
+Package pdftex.def Info: hw6p2.pdf  used on input line 21.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<hw6p2.pdf, id=161, page=1, 614.295pt x 794.97pt>
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 1>
+Package pdftex.def Info: hw6p2.pdf , page1 used on input line 21.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 1>
+Package pdftex.def Info: hw6p2.pdf , page1 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 1>
+Package pdftex.def Info: hw6p2.pdf , page1 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 1>
+Package pdftex.def Info: hw6p2.pdf , page1 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 1>
+Package pdftex.def Info: hw6p2.pdf , page1 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [13 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p2.pdf>]
+<hw6p2.pdf, id=249, page=2, 614.295pt x 794.97pt>
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 2>
+Package pdftex.def Info: hw6p2.pdf , page2 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 2>
+Package pdftex.def Info: hw6p2.pdf , page2 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 2>
+Package pdftex.def Info: hw6p2.pdf , page2 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [14 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p2.pdf>]
+<hw6p2.pdf, id=253, page=3, 614.295pt x 794.97pt>
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 3>
+Package pdftex.def Info: hw6p2.pdf , page3 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 3>
+Package pdftex.def Info: hw6p2.pdf , page3 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 3>
+Package pdftex.def Info: hw6p2.pdf , page3 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [15 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p2.pdf>]
+<hw6p2.pdf, id=257, page=4, 614.295pt x 794.97pt>
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 4>
+Package pdftex.def Info: hw6p2.pdf , page4 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 4>
+Package pdftex.def Info: hw6p2.pdf , page4 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 4>
+Package pdftex.def Info: hw6p2.pdf , page4 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [16 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p2.pdf>]
+<hw6p2.pdf, id=263, page=5, 614.295pt x 794.97pt>
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 5>
+Package pdftex.def Info: hw6p2.pdf , page5 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 5>
+Package pdftex.def Info: hw6p2.pdf , page5 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 5>
+Package pdftex.def Info: hw6p2.pdf , page5 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [17 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p2.pdf>]
+<hw6p2.pdf, id=269, page=6, 614.295pt x 794.97pt>
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 6>
+Package pdftex.def Info: hw6p2.pdf , page6 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 6>
+Package pdftex.def Info: hw6p2.pdf , page6 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 6>
+Package pdftex.def Info: hw6p2.pdf , page6 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [18 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p2.pdf>]
+<hw6p2.pdf, id=273, page=7, 614.295pt x 794.97pt>
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 7>
+Package pdftex.def Info: hw6p2.pdf , page7 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 7>
+Package pdftex.def Info: hw6p2.pdf , page7 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 7>
+Package pdftex.def Info: hw6p2.pdf , page7 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [19 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p2.pdf>]
+<hw6p2.pdf, id=288, page=8, 614.295pt x 794.97pt>
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 8>
+Package pdftex.def Info: hw6p2.pdf , page8 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 8>
+Package pdftex.def Info: hw6p2.pdf , page8 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 8>
+Package pdftex.def Info: hw6p2.pdf , page8 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [20 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p2.pdf>]
+<hw6p2.pdf, id=294, page=9, 614.295pt x 794.97pt>
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 9>
+Package pdftex.def Info: hw6p2.pdf , page9 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 9>
+Package pdftex.def Info: hw6p2.pdf , page9 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 9>
+Package pdftex.def Info: hw6p2.pdf , page9 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [21 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p2.pdf>]
+<hw6p2.pdf, id=298, page=10, 614.295pt x 794.97pt>
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 10>
+Package pdftex.def Info: hw6p2.pdf , page10 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 10>
+Package pdftex.def Info: hw6p2.pdf , page10 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 10>
+Package pdftex.def Info: hw6p2.pdf , page10 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [22 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p2.pdf>]
+<hw6p2.pdf, id=304, page=11, 614.295pt x 794.97pt>
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 11>
+Package pdftex.def Info: hw6p2.pdf , page11 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 11>
+Package pdftex.def Info: hw6p2.pdf , page11 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p2.pdf Graphic file (type pdf)
+<use hw6p2.pdf, page 11>
+Package pdftex.def Info: hw6p2.pdf , page11 used on input line 21.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [23 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p2.pdf>]
+<hw6p3.pdf, id=308, 614.295pt x 794.97pt>
+File: hw6p3.pdf Graphic file (type pdf)
+<use hw6p3.pdf>
+Package pdftex.def Info: hw6p3.pdf  used on input line 22.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: hw6p3.pdf Graphic file (type pdf)
+<use hw6p3.pdf>
+Package pdftex.def Info: hw6p3.pdf  used on input line 22.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<hw6p3.pdf, id=311, page=1, 614.295pt x 794.97pt>
+File: hw6p3.pdf Graphic file (type pdf)
+<use hw6p3.pdf, page 1>
+Package pdftex.def Info: hw6p3.pdf , page1 used on input line 22.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: hw6p3.pdf Graphic file (type pdf)
+<use hw6p3.pdf, page 1>
+Package pdftex.def Info: hw6p3.pdf , page1 used on input line 22.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p3.pdf Graphic file (type pdf)
+<use hw6p3.pdf, page 1>
+Package pdftex.def Info: hw6p3.pdf , page1 used on input line 22.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p3.pdf Graphic file (type pdf)
+<use hw6p3.pdf, page 1>
+Package pdftex.def Info: hw6p3.pdf , page1 used on input line 22.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p3.pdf Graphic file (type pdf)
+<use hw6p3.pdf, page 1>
+Package pdftex.def Info: hw6p3.pdf , page1 used on input line 22.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [24 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p3.pdf>]
+<hw6p3.pdf, id=399, page=2, 614.295pt x 794.97pt>
+File: hw6p3.pdf Graphic file (type pdf)
+<use hw6p3.pdf, page 2>
+Package pdftex.def Info: hw6p3.pdf , page2 used on input line 22.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p3.pdf Graphic file (type pdf)
+<use hw6p3.pdf, page 2>
+Package pdftex.def Info: hw6p3.pdf , page2 used on input line 22.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p3.pdf Graphic file (type pdf)
+<use hw6p3.pdf, page 2>
+Package pdftex.def Info: hw6p3.pdf , page2 used on input line 22.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [25 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p3.pdf>]
+<hw6p3.pdf, id=411, page=3, 614.295pt x 794.97pt>
+File: hw6p3.pdf Graphic file (type pdf)
+<use hw6p3.pdf, page 3>
+Package pdftex.def Info: hw6p3.pdf , page3 used on input line 22.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p3.pdf Graphic file (type pdf)
+<use hw6p3.pdf, page 3>
+Package pdftex.def Info: hw6p3.pdf , page3 used on input line 22.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p3.pdf Graphic file (type pdf)
+<use hw6p3.pdf, page 3>
+Package pdftex.def Info: hw6p3.pdf , page3 used on input line 22.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [26 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p3.pdf>]
+<hw6p3.pdf, id=415, page=4, 614.295pt x 794.97pt>
+File: hw6p3.pdf Graphic file (type pdf)
+<use hw6p3.pdf, page 4>
+Package pdftex.def Info: hw6p3.pdf , page4 used on input line 22.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p3.pdf Graphic file (type pdf)
+<use hw6p3.pdf, page 4>
+Package pdftex.def Info: hw6p3.pdf , page4 used on input line 22.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p3.pdf Graphic file (type pdf)
+<use hw6p3.pdf, page 4>
+Package pdftex.def Info: hw6p3.pdf , page4 used on input line 22.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [27 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p3.pdf>]
+<hw6p4.pdf, id=421, 614.295pt x 794.97pt>
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf>
+Package pdftex.def Info: hw6p4.pdf  used on input line 23.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf>
+Package pdftex.def Info: hw6p4.pdf  used on input line 23.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<hw6p4.pdf, id=424, page=1, 614.295pt x 794.97pt>
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf, page 1>
+Package pdftex.def Info: hw6p4.pdf , page1 used on input line 23.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf, page 1>
+Package pdftex.def Info: hw6p4.pdf , page1 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf, page 1>
+Package pdftex.def Info: hw6p4.pdf , page1 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf, page 1>
+Package pdftex.def Info: hw6p4.pdf , page1 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf, page 1>
+Package pdftex.def Info: hw6p4.pdf , page1 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [28 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p4.pdf>]
+<hw6p4.pdf, id=508, page=2, 614.295pt x 794.97pt>
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf, page 2>
+Package pdftex.def Info: hw6p4.pdf , page2 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf, page 2>
+Package pdftex.def Info: hw6p4.pdf , page2 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf, page 2>
+Package pdftex.def Info: hw6p4.pdf , page2 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [29 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p4.pdf>]
+<hw6p4.pdf, id=523, page=3, 614.295pt x 794.97pt>
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf, page 3>
+Package pdftex.def Info: hw6p4.pdf , page3 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf, page 3>
+Package pdftex.def Info: hw6p4.pdf , page3 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf, page 3>
+Package pdftex.def Info: hw6p4.pdf , page3 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [30 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p4.pdf>]
+<hw6p4.pdf, id=527, page=4, 614.295pt x 794.97pt>
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf, page 4>
+Package pdftex.def Info: hw6p4.pdf , page4 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf, page 4>
+Package pdftex.def Info: hw6p4.pdf , page4 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf, page 4>
+Package pdftex.def Info: hw6p4.pdf , page4 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [31 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p4.pdf>]
+<hw6p4.pdf, id=532, page=5, 614.295pt x 794.97pt>
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf, page 5>
+Package pdftex.def Info: hw6p4.pdf , page5 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf, page 5>
+Package pdftex.def Info: hw6p4.pdf , page5 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf, page 5>
+Package pdftex.def Info: hw6p4.pdf , page5 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [32 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p4.pdf>]
+<hw6p4.pdf, id=538, page=6, 614.295pt x 794.97pt>
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf, page 6>
+Package pdftex.def Info: hw6p4.pdf , page6 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf, page 6>
+Package pdftex.def Info: hw6p4.pdf , page6 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf, page 6>
+Package pdftex.def Info: hw6p4.pdf , page6 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [33 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p4.pdf>]
+<hw6p4.pdf, id=557, page=7, 614.295pt x 794.97pt>
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf, page 7>
+Package pdftex.def Info: hw6p4.pdf , page7 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf, page 7>
+Package pdftex.def Info: hw6p4.pdf , page7 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf, page 7>
+Package pdftex.def Info: hw6p4.pdf , page7 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [34 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p4.pdf>]
+<hw6p4.pdf, id=562, page=8, 614.295pt x 794.97pt>
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf, page 8>
+Package pdftex.def Info: hw6p4.pdf , page8 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf, page 8>
+Package pdftex.def Info: hw6p4.pdf , page8 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf, page 8>
+Package pdftex.def Info: hw6p4.pdf , page8 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [35 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p4.pdf>]
+<hw6p4.pdf, id=566, page=9, 614.295pt x 794.97pt>
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf, page 9>
+Package pdftex.def Info: hw6p4.pdf , page9 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf, page 9>
+Package pdftex.def Info: hw6p4.pdf , page9 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: hw6p4.pdf Graphic file (type pdf)
+<use hw6p4.pdf, page 9>
+Package pdftex.def Info: hw6p4.pdf , page9 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [36 </home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/hw6p4.pdf>] (/home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/file.aux) ) 
+Here is how much of TeX's memory you used:
+ 6424 strings out of 481252
+ 97393 string characters out of 5915888
+ 363643 words of memory out of 5000000
+ 23310 multiletter control sequences out of 15000+600000
+ 406626 words of font info for 40 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 80i,17n,88p,348b,425s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on /home/lawrence/Desktop/UCLA/Classes/ECEC143A/HW6/file.pdf (36 pages, 785421 bytes).
+PDF statistics:
+ 590 PDF objects out of 1000 (max. 8388607)
+ 337 compressed objects within 4 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 236 words of extra memory for PDF output out of 10000 (max. 10000000)
+
